@@ -1,0 +1,8 @@
+package br.com.nicacio.patterns.adapter.duck.fly;
+
+public class FlyRocketPowered implements FlyBehavior {
+    @Override
+    public void fly() {
+        System.out.println("I'm flying with a rocket!");
+    }
+}
